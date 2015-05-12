@@ -94,8 +94,8 @@ Sometimes we need to use docker images to build our software, so  that they can 
   `cmssw/slc7-vanilla` means "push to the [official Docker Hub repository for
   the cmssw Organization](docker-cmssw)"
 
-^docker-setup: On SLC6, `yum install docker-io`. On CC7, `yum install docker`. On Mac, use [boot2docker](http://boot2docker.io)
-^docker-group: `usermod -a -G docker <username>`
+[^docker-setup]: On SLC6, `yum install docker-io`. On CC7, `yum install docker`. On Mac, use [boot2docker](http://boot2docker.io). If you are unable to run docker on your machine, you can use cmsdevXX ones.
+[^docker-group]: `usermod -a -G docker <username>`
 
 docker-cmssw: https://registry.hub.docker.com/repos/cmssw/
 docker-hub: https://hub.docker.com/account/signup/

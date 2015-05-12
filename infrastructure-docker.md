@@ -8,9 +8,9 @@ related:
 
 ## Prerequites:
 
-- Make sure you have the docker client [^docker-setup].
-- Make sure you can run docker by adding yourself to the docker UNIX group.
-- Register yourself in [Docker Hub].
+- Make sure you have the docker client [^docker-setup][].
+- Make sure you can run docker by adding yourself to the docker UNIX group [^docker-group][].
+- Register yourself in [Docker Hub][docker-hub].
 
 ## Updating docker build image
 
